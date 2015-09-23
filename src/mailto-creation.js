@@ -39,7 +39,9 @@
         i = 0;
 
     for (i; i < len; i++) {
+
         links[i].onclick = function (e) {
+            e.preventDefault();
             mailtoCreation.init(e);
         };
     }
