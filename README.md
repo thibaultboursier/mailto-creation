@@ -4,6 +4,15 @@
 
 # Start
 
+You must first install NPM dependencies and run start script :
+
+```
+npm install
+npm start
+```
+
+# How to use it
+
 Mailto-creation use UMD (Universal Module Definition) pattern.
 
 Global object :
@@ -43,9 +52,3 @@ Subject is not obligatory, and your can set a default subject inside options.
 # Demo
 
 You can see demo by opening index.html file inside /demo folder.
-Before, you must install NPM dependencies and run start script :
-
-```
-npm install
-npm start
-```

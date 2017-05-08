@@ -5,6 +5,6 @@
     "babel-cli": "^6.24.1"
   },
   "scripts": {
-    "start": "babel src/mailto.js > demo/mailto.js"
+    "start": "babel src/mailto.js > dist/mailto.js"
   }
 }
