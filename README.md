@@ -6,10 +6,28 @@
 
 Mailto-creation use UMD (Universal Module Definition) pattern.
 
+Global object :
 ```
 const mailto = new Mailto({
     selector: '.my-custom-selector',
     defaultSubject: 'My default subject'
+});
+```
+
+```
+mailto.init();
+``` 
+
+AMD :
+```
+require((require, exports) => {
+    const Mailto = require('Mailto');
+    const mailto = new Mailto({
+        selector: '.my-custom-selector',
+        defaultSubject: 'My default subject'
+    });
+
+    mailto.init();
 });
 ```
 
