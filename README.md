@@ -28,14 +28,10 @@ mailto.init();
 AMD :
 ```
 require(['Mailto'], (Mailto) => {
-    // Instantiate your module here
-});
-```
+    const mailto = new Mailto({});
 
-NodeJS :
-```
-const Mailto = require('Mailto');
-// Instantiate your module here
+    mailto.init();
+});
 ```
 
 # Examples
