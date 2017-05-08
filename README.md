@@ -12,23 +12,20 @@ const mailto = new Mailto({
     selector: '.my-custom-selector',
     defaultSubject: 'My default subject'
 });
-```
 
-```
 mailto.init();
-``` 
+```
 
 AMD :
 ```
-require((require, exports) => {
-    const Mailto = require('Mailto');
-    const mailto = new Mailto({
-        selector: '.my-custom-selector',
-        defaultSubject: 'My default subject'
-    });
-
-    mailto.init();
+require(['Mailto'], () => {
+    // Your code here
 });
+```
+
+NodeJS :
+```
+const Mailto = require('Mailto');
 ```
 
 ```
