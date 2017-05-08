@@ -13,7 +13,7 @@ npm start
 
 # How to use it
 
-Mailto-creation use UMD (Universal Module Definition) pattern.
+Mailto-creation uses UMD (Universal Module Definition) pattern.
 
 Global object :
 ```

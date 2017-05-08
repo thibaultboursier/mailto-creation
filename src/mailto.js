@@ -28,7 +28,7 @@
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
 
-                    this.mail(e.target)
+                    this.mail(e.target);
                 });
             });
         }
