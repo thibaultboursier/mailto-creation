@@ -19,13 +19,14 @@ mailto.init();
 AMD :
 ```
 require(['Mailto'], () => {
-    // Your code here
+    // Instantiate your module here
 });
 ```
 
 NodeJS :
 ```
 const Mailto = require('Mailto');
+// Instantiate your module here
 ```
 
 ```
