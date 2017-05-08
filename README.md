@@ -18,7 +18,7 @@ mailto.init();
 
 AMD :
 ```
-require(['Mailto'], () => {
+require(['Mailto'], (Mailto) => {
     // Instantiate your module here
 });
 ```
@@ -27,10 +27,6 @@ NodeJS :
 ```
 const Mailto = require('Mailto');
 // Instantiate your module here
-```
-
-```
-mailto.init();
 ```
 
 # Examples
@@ -42,4 +38,14 @@ Subject is not obligatory, and your can set a default subject inside options.
 <a href="#" title="Send an e-mail to us" class="js_mailto" data-recipient="john@mailto-creation.fr" data-subject="Contact from website">
   Send an e-mail to us
 </a>
+```
+
+# Demo
+
+You can see demo by opening index.html file inside /demo folder.
+Before, you must install NPM dependencies and run start script :
+
+```
+npm install
+npm start
 ```
