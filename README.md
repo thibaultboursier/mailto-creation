@@ -4,6 +4,8 @@
 
 # Start
 
+Mailto-creation use UMD (Universal Module Definition) pattern.
+
 ```
 const mailto = new Mailto({
     selector: '.my-custom-selector',
