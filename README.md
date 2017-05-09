@@ -2,7 +2,7 @@
 
 > Create a custom mailto with data attributes
 
-# Start
+## Start
 
 You must first install NPM dependencies and run start script :
 
@@ -11,7 +11,7 @@ npm install
 npm start
 ```
 
-# How to use it
+## How to use it
 
 Mailto-creation uses UMD (Universal Module Definition) pattern.
 
@@ -34,7 +34,7 @@ require(['mailto'], (Mailto) => {
 });
 ```
 
-# Examples
+## Examples
 
 Add class 'js_mailto' on the clicked element, with two data attributes : 'data-recipient' and 'data-subject'.
 Subject is not obligatory, and your can set a default subject inside options.
@@ -45,6 +45,6 @@ Subject is not obligatory, and your can set a default subject inside options.
 </a>
 ```
 
-# Demo
+## Demo
 
 You can see demo by opening index.html file inside /demo folder.
