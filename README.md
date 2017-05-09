@@ -27,7 +27,7 @@ mailto.init();
 
 AMD :
 ```
-require(['Mailto'], (Mailto) => {
+require(['mailto'], (Mailto) => {
     const mailto = new Mailto({});
 
     mailto.init();
