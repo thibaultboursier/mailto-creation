@@ -37,7 +37,7 @@ require(['mailto'], (Mailto) => {
 ## Examples
 
 Add class 'js_mailto' on the clicked element, with two data attributes : 'data-recipient' and 'data-subject'.
-Subject is not obligatory, and your can set a default subject inside options.
+Subject is not obligatory, and your can set a default subject inside options object.
 
 ```html
 <a href="#" title="Send an e-mail to us" class="js_mailto" data-recipient="john@mailto-creation.fr" data-subject="Contact from website">
